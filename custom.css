@@ -1,0 +1,32 @@
+//costum-css for sidemenu
+.new-nav{
+  background-color: #e3e3e3;
+  padding: 8px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+}
+
+.new-nav a:link, a:visited {
+  background-color: #e3e3e3;
+  color: #af06ac;
+  padding: 8px 10px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+}
+
+.new-nav a:hover, a:active {
+  color: #7b247a;
+}
+
+.m-header {
+	color: #000000;
+	font-weight:bold;
+}
+
+.modal-backdrop {
+
+z-index: 2 !important;
+
+}
