@@ -1,28 +1,9 @@
 <?php
 /*
-Plugin Name: Login or Logout Menu Item
+Name: Login or Logout Menu Item
 Description: Adds a new Menu item which dynamically changes from login to logout depending on the current users logged in status.
 Version: 1.1.1
-Plugin URI: https://caseproof.com
-Author: cartpauj
-Text Domain: lolmi
-Domain Path: /i18n
 */
-
-/*
-  This program is free software; you can redistribute it and/or modify
-  it under the terms of the GNU General Public License, version 2, as
-  published by the Free Software Foundation.
-
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  GNU General Public License for more details.
-  
-  Thanks goes to Juliobox for his work on the beginning of this via the BAW Login/Logout Menu plugin.
-*/
-
-if(!defined('ABSPATH')) { die("Hey yo, why you cheatin?"); }
 
 /* Load up the language */
 function lolmi_load_textdomain() {
@@ -38,7 +19,7 @@ function lolmi_add_nav_menu_metabox() {
 }
 add_action('admin_head-nav-menus.php', 'lolmi_add_nav_menu_metabox');
 
-/* The metabox code : Awesome code stolen from screenfeed.fr (GregLone) Thank you mate. */
+/* The metabox code . */
 function lolmi_nav_menu_metabox($object) {
   global $nav_menu_selected_id;
 
